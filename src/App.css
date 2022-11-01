@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter&family=Lexend+Deca&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.arrow {
+  display: flex;
+  float: right;
+}
+.threedots {
+  display: flex;
+  float: right;
+}
+
+#profile__img {
+  width: 88px;
+  height: 88px;
+}
+#anne {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.container-links {
+  display: flex;
+  justify-content: center;
+}
+.link {
+  background-color: #f5f5f5;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  padding: 76px 0px;
+  transition: 0.1s;
+  margin-top: 1rem;
+  width: 1152px;
+  text-align: center;
+  border-radius: 10px;
+}
+.link:hover {
+  transform: scale(1.05);
+  transition: 0.1s;
+  border: 1px solid #d0d5dd;
+  background-color: #d0d5dd;
+}
+.link:active {
+  transform: scale(1.05);
+  transition: 0.1s;
+  border: 1px solid #98a2b3;
+  background-color: #98a2b3;
+}
+.slackicons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.slack-icon {
+  padding-right: 40px;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2rem 0rem;
+  align-items: stretch;
+}
+
+
+@media screen and (max-width: 375px) {
+  .arrow {
+    display: none;
+    visibility: hidden;
+  }
+
+  .threedots {
+    float: right;
+  }
+  .footer{
+    display: block;
+    flex-direction: column;
+   
+  }
+  .underneath{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .zurilogo {
+    display: block;
+    width: 100%;
+    padding-bottom: 12px;
+  }
+
+  .motto {
+    display: block;
+    width: 100%;
+    padding-bottom: 12px;
+  }
+
+  .i4glogo {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 380px) {
+  .arrow {
+    display: flex;
+    float: right;
+  }
+  .threedots {
+    display: none;
+    visibility: hidden;
+  }
+}
